@@ -1,0 +1,80 @@
+.home-container{
+    display: flex;
+
+}
+.all-products{
+    width: 75%;
+    min-height: calc(100vh - 80px);
+    border-right: 1px solid #fdc827;
+    padding: 20px 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: 5px solid rgb(231, 108, 33);
+    padding-left: 10px;
+}
+.view-all{
+    color:rgb(231, 108, 33);
+    cursor: pointer;
+}
+.product-tumbnail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.product-tumbnail .product .cover img{
+    border-radius: 5px;
+    width: 150px;
+    
+}
+.detail{
+    width: 180px;
+
+}
+.name{
+    font-weight: bold;
+    height: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.popular-products{
+    width:25%;
+    min-height: calc(100vh - 80px);
+    padding: 20px 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.popular-movies {
+    width: 25%;
+    min-height: calc(100vh - 80px);
+    padding: 20px 40px;
+    font-family: "Roboto", sans-serif;}
+.popular-movies h4 {
+    text-transform: uppercase;
+      font-weight: bold;
+      border-left: 5px solid #ff9900;
+      padding-left: 10px;
+}
+.movies .movie{
+    margin-bottom: 20px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.movies .movie .name{
+    font-weight:500;
+    cursor: pointer;
+}
+.movies .view-all{
+    color: #ff9900;
+        text-align: right;
+        margin-top: 30px;
+        cursor: pointer;
+}

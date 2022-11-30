@@ -1,0 +1,8 @@
+a:link, a:visited{
+text-decoration: none;
+background-color: blue;
+color:wheat;
+text-align: center;
+display: inline-block;
+
+}
